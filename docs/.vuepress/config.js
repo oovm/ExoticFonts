@@ -9,7 +9,8 @@ const locale_cn = {
         }
     },
     sidebar: [
-        ['/cn/PigpenCipher', '猪圈密码'],
+        ['/cn/PigpenCipher', 'Pigpen Cipher'],
+        ['/cn/Hymmnos', 'Hymmnos'],
     ]
 }
 
@@ -25,7 +26,7 @@ const locale_en = {
         }
     },
     sidebar: [
-        ['/en/PigpenCipher', 'PigpenCipher'],
+        ['/en/PigpenCipher', 'Pigpen Cipher'],
     ]
 }
 

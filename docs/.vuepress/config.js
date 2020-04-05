@@ -35,12 +35,12 @@ module.exports = {
     locales: {
         '/cn/': {
             lang: 'zh-CN',
-            title: 'TemplateVuepress',
+            title: 'ExoticFonts',
             lastUpdated: 'Last Updated',
         },
         '/en/': {
             lang: 'en-US',
-            title: 'TemplateVuepress',
+            title: 'ExoticFonts',
             lastUpdated: 'Last Updated',
         }
     },
@@ -48,7 +48,7 @@ module.exports = {
         ['link', { rel: 'shortcut icon', type: "image/x-icon", href: './favicon.png' }]
     ],
     themeConfig: {
-        repo: 'GalAster/TemplateVuepress',
+        repo: 'GalAster/ExoticFonts',
         editLinks: true,
         docsDir: 'docs',
         markdown: {

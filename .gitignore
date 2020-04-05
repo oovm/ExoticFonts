@@ -18,3 +18,4 @@ docs/.build/
 
 
 *.7z
+*/*.backup/*

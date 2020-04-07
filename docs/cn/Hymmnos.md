@@ -1,25 +1,26 @@
 <h2 style="font-family: 'Hymmnos';">Hymmnos</h1>
 
 
+Hymmnos语（日语：ヒュムノス語）又称作塔语、AT语，因为“hymmnos”词义为“诗歌”，故又称做诗语。是在株式会社万普和Gust的原创作品“魔塔大陆系列”（PS2和PS3上的游戏软件）中以及其衍生作品和关联作品中出现的一种架空语言。并且，在作品外也单指没有使用Hymmnos文字（而是拉丁字母）写作的Hymmnos歌曲，但其本意和Hymmnos语没有区别（类似于俄语的西里尔字母写法和拉丁字母写法）。由于该语言存在基本的语法和词典，现实世界也存在少量再利用该语言的人群。但同时，因为词汇量比较少，再加上官方给出的词典并没有涵盖所有的单词。所以基本只能用来写诗或歌曲，而难以用来日常交流。
 
 
+<textarea cols="" rows="" id="eml" onkeyup="SwapTxt()"></textarea>
+<p id="lyny"></p>
+
+<script>
+ function SwapTxt(){
+     var txt = document.getElementById("eml").value;  //获取文本框里的值
+         document.getElementById("lyny").innerHTML=txt;  //在#lyny显示文本框的值
+      }
+</script>
 
 
-<div class="font-container" style="font-family: 'Hymmnos'; font-weight: normal; font-style: normal;">
-    <p class="letters">
-        abcdefghijklmnopqrstuvwxyz<br>
-        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-        0123456789.:,;()*!?'@#<>$%&^+-=~
-    </p>
-    <p class="s10" style="font-size: 10px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s11" style="font-size: 11px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s12" style="font-size: 12px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s14" style="font-size: 14px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s18" style="font-size: 18px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s24" style="font-size: 24px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s30" style="font-size: 30px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s36" style="font-size: 36px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s48" style="font-size: 48px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s60" style="font-size: 60px;">The quick brown fox jumps over the lazy dog.</p>
-    <p class="s72" style="font-size: 72px;">The quick brown fox jumps over the lazy dog.</p>
-</div>
+![Hymmnos_1.png](https://i.loli.net/2020/09/24/JiId1UpFwm5jCZf.png)
+
+![Hymmnos_2.png](https://i.loli.net/2020/09/24/oZ4Cbm3jAfFlB2q.png)
+
+![Hymmnos_3.png](https://i.loli.net/2020/09/24/CSc2uFRm6JK4wYp.png)
+
+![Hymmnos_4.png](https://i.loli.net/2020/09/24/sc7UDw9Hq3R6iYL.png)
+
+![Hymmnos_5.png](https://i.loli.net/2020/09/24/agQUTunxj7RlWmf.png)

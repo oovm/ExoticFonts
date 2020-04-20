@@ -85,15 +85,11 @@ module.exports = {
         },
     },
     plugins: {
-        live: {
-            liveFilter(lang) {
-                return ["vue", "js", "jsx"].includes(lang);
-            },
-        },
         '@vuepress/pwa': {
-            // serviceWorker: true,
-            // updatePopup: true,
+            serviceWorker: true,
+            updatePopup: true,
             popupComponent: 'PWAUpdate',
         }
     }
 };
+

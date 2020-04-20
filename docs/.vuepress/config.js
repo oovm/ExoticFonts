@@ -14,13 +14,18 @@ const locale_cn = {
             collapsable: false,
             children: [
                 ['/cn/PigpenCipher', 'Pigpen'],
+                ['/cn/TemplarsCipher', 'Templars'],
+                ['/cn/Nyctography', 'Nyctography'],
             ]
         },
         {
             title: 'Conlang',
             collapsable: false,
             children: [
+                ['/cn/Ar Ciela', 'Ar Ciela'],
                 ['/cn/Hymmnos', 'Hymmnos'],
+                ['/cn/Hymmnos', 'Quenya'],
+                ['/cn/Hymmnos', 'Sindarin'],
             ],
         }
     ]
@@ -61,7 +66,7 @@ module.exports = {
         '/cn/': {
             lang: 'zh-CN',
             title: 'ExoticFonts',
-            lastUpdated: 'Last Updated',
+            lastUpdated: '最后更新',
         },
         '/en/': {
             lang: 'en-US',

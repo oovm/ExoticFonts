@@ -1,6 +1,7 @@
 <template>
     <div class="translator">
         <textarea
+            rows="10"
             v-model="message"
             placeholder="Angel of the darkness against the creatures in the night"
         ></textarea>

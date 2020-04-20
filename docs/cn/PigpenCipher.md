@@ -6,6 +6,10 @@
 早在1700年代，共济会常常使用这种密码保护一些私密纪录或用来通讯，所以又称共济会密码。
 
 
+## Translator
+
+<Translator conlang="Pigpen Cipher"></Translator>
+
 ## Alphabet
 
 ![PigpenCipher_1.png](https://i.loli.net/2020/09/24/9kezJhn31bRgFoO.png)

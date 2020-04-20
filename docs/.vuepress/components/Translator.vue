@@ -1,27 +1,29 @@
 <template>
-    <Translator v-slot="{ enabled, reload, message, buttonText }">
-        <div>
-            <textarea
-                v-model="message"
-                placeholder="add multiple lines"
-            ></textarea>
-
-            <p style="white-space: pre-line; font-family: 'Hymmnos'">
-                {{ message }}
-            </p>
-        </div>
-    </Translator>
+    <div class="translator">
+        <textarea
+            v-model="message"
+            placeholder="Angel of the darkness against the creatures in the night"
+        ></textarea>
+        <p :style="{ '--conlang': conlang }">{{ message }}</p>
+    </div>
 </template>
 
 <script>
-let Translator;
-
 export default {
-    components: { Translator },
+    name: "Translator",
+    props: ["conlang"],
+    data() {
+        return {
+            message: "Angel of the darkness against the creatures in the night",
+        };
+    },
 };
 </script>
 
-<style>
-
-
+<style scoped>
+.translator p {
+    white-space: pre-line;
+    font-family: var(--conlang);
+    font-size: 36px;
+}
 </style>

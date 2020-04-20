@@ -1,4 +1,4 @@
-<h2 style="font-family: 'Hymmnos';">Hymmnos</h2>
+## <span style="font-family: 'Hymmnos';">Hymmnos</span>
 
 
 ## Alphabet

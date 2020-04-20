@@ -9,8 +9,20 @@ const locale_cn = {
         }
     },
     sidebar: [
-        ['/cn/PigpenCipher', 'Pigpen Cipher'],
-        ['/cn/Hymmnos', 'Hymmnos'],
+        {
+            title: 'Cipher',
+            collapsable: false,
+            children: [
+                ['/cn/PigpenCipher', 'Pigpen'],
+            ]
+        },
+        {
+            title: 'Conlang',
+            collapsable: false,
+            children: [
+                ['/cn/Hymmnos', 'Hymmnos'],
+            ],
+        }
     ]
 }
 
@@ -26,7 +38,20 @@ const locale_en = {
         }
     },
     sidebar: [
-        ['/en/PigpenCipher', 'Pigpen Cipher'],
+        {
+            title: 'Cipher',
+            collapsable: false,
+            children: [
+                ['/en/PigpenCipher', 'Pigpen'],
+            ]
+        },
+        {
+            title: 'Conlang',
+            collapsable: false,
+            children: [
+                ['/en/Hymmnos', 'Hymmnos'],
+            ],
+        }
     ]
 }
 
@@ -59,14 +84,11 @@ module.exports = {
             '/en/': locale_en,
         },
     },
-    markdown: {
-        config: md => {
-        }
-    },
     plugins: {
-        mathjax: {
-            target: 'chtml',
-            presets: [],
+        live: {
+            liveFilter(lang) {
+                return ["vue", "js", "jsx"].includes(lang);
+            },
         },
         '@vuepress/pwa': {
             // serviceWorker: true,

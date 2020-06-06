@@ -16,16 +16,20 @@ const locale_cn = {
                 ['/cn/PigpenCipher', 'Pigpen'],
                 ['/cn/TemplarsCipher', 'Templars'],
                 ['/cn/Nyctography', 'Nyctography'],
+                ['/cn/LineCipher', 'Line Script'],
+                ['/cn/SineCipher', 'Sine Script'],
+                ['/cn/WaveCipher', 'Wave Script'],
             ]
         },
         {
             title: 'Conlang',
             collapsable: false,
             children: [
-                ['/cn/Ar Ciela', 'Ar Ciela'],
+                ['/cn/ArCiela', 'Ar Ciela'],
                 ['/cn/Hymmnos', 'Hymmnos'],
-                ['/cn/Hymmnos', 'Quenya'],
-                ['/cn/Hymmnos', 'Sindarin'],
+                ['/cn/Aurebesh', 'Aurebesh'],
+                ['/cn/Quenya', 'Quenya'],
+                ['/cn/Sindarin', 'Sindarin'],
             ],
         }
     ]
